@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0088/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0088/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清丹元玉真帝皇飛仙上經
+  date: '2015-08-28 23:49:17.708173'
+  source:
+    repository: kanripo
+    path: KR5b0088
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0088_000-ZTDZ.yaml, hash: 'sha256:8225c67ca6bd53f690c40bed06ea44a98227153e7607fe1dc994214970336cdc'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0088_000-ZTDZ.markers.yaml, hash: 'sha256:ce0527684c21a7f79f8ce833c3fa871f65feb0226a3ef7f3de6be5fdc624da61'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0088_SJB_000-060544c
+    span:
+    - body
+    - 0
+    - 1360
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b59b70796480f92fb3787af76cb5fcd74206f02a0975565f56965ba46178d731
